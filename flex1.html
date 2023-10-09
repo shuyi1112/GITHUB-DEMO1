@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>shuyi's illustration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d8364;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            min-height: 100vh;
+        }
+
+        .page {
+            min-width: 100vw;
+            min-height: 100vh;
+            scroll-snap-align: start;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page-content {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            max-width: 80%;
+        }
+
+        .page-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+      
+        .page-content:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page">
+            <div class="page-content">
+                <img src="未命名作品 132.png" alt="图像1">
+                <h2>Fake love</h2>
+                <p>page 1</p>
+            </div>
+        </div>
+        <div class="page">
+            <div class="page-content">
+                <img src="未命名作品 131.png" alt="图像2">
+                <h2>The deep swa</h2>
+                <p>Page 2</p>
+            </div>
+        </div>
+        <div class="page">
+            <div class="page-content">
+                <img src="未命名作品 133.png" alt="图像3">
+                <h2>Found you</h2>
+                <p>Page 3</p>
+            </div>
+
+        
+        </div>
+        <!-- 添加更多的页面 -->
+    </div>
+</body>
+</html>

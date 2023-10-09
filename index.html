@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shuyi's grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-gap: 10px; 
+            padding: 30px;
+        }
+
+     
+
+        .grid-item {
+            background-color: #ff8787;
+            padding: 50px;
+            text-align: center;
+        }
+
+
+        .grid-item img{
+            max-width: 100%;
+            height:auto;
+        }
+
+        .headline {
+            grid-column: 1 / span 3; 
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="headline">Welcome to SHU's world!</div>
+
+
+        <div class="grid-item" >Helloooooooo!</div>
+        <div class="grid-item" >My name is Shuyi MA😎</div>
+        <div class="grid-item" >I’m a graphic designer,</div>
+        <div class="grid-item" >also is a illustrator.</div>
+        <div class="grid-item" >If u want to customize the illustration,</div>
+        <div class="grid-item" >please contact me:)💪💪</div>
+        
+
+        <div class="grid-item">
+            <img src="未命名作品.JPG" alt="图像1">
+            <p>created in 10.6.2023</p>
+        </div>
+
+        <div class="grid-item">
+            <img src="包装1 7.png" alt="图像2">
+            <p>created in 7.28.2023</p>
+        </div>
+
+        <div class="grid-item">
+            <img src="未命名作品 130.png" alt="图像3">
+            <p>created 7.30.2023</p>
+        </div>
+
+    </div>
+</body>
+</html>
